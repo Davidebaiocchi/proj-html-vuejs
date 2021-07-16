@@ -36,8 +36,7 @@
 <script>
 export default {
   name: 'Header',
-  props: {
-  },
+  
   data() {
     return {
       menuHeader : [
@@ -118,6 +117,12 @@ export default {
     border-radius: 3px;
   }
 
+  button:hover {
+    cursor: pointer;
+    color: black;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
 
 
 

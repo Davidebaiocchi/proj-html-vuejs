@@ -32,5 +32,6 @@ export default {
   .blue-hover:hover {
     color: rgb(19, 158, 158);
     cursor: pointer;
+    scale: 1.1;
   }
 </style>
