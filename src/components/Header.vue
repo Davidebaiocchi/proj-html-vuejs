@@ -16,7 +16,10 @@
     </div>
 
     <div class="lower-section">
-
+      <div class="title">
+        <span class="title-mod">Nex</span>
+        <span>Gen</span>
+      </div>
     </div>
   </header>
 </template>
@@ -25,7 +28,7 @@
 export default {
   name: 'Header',
   props: {
-    msg: String
+   
   }
 }
 </script>
@@ -48,6 +51,35 @@ export default {
   i {
     margin-right: 20px;
   }
+
+  // parte bassa header
+  .lower-section {
+    background: rgb(17,37,48);
+    background: linear-gradient(90deg, rgba(17,37,48,1) 0%, rgb(12, 41, 58) 85%, rgb(34, 57, 71) 100%);
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(233, 230, 230);
+    font-weight: 800;
+  }
+
+  .title-mod {
+    background-color: rgba(12, 226, 197, 0.096);
+    padding: 10px 0;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgba(0, 255, 221, 0.692);
+    margin-right: 3px;
+  }
+
+
 
 
 </style>
