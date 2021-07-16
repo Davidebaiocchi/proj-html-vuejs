@@ -1,18 +1,12 @@
 <template>
-  <header>
-    <div class="upper-section">
+  <footer>
 
-    </div>
-
-    <div class="lower-section">
-      
-    </div>
-  </header>
+  </footer>
 </template>
 
 <script>
 export default {
-  name: 'Header',
+  name: 'Footer',
   props: {
     msg: String
   }
