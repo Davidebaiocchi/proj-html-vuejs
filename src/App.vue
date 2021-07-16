@@ -22,5 +22,15 @@ export default {
 </script>
 
 <style lang="scss">
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+  }
 
+  // tag generale per l' hover di colore azzurro
+  .blue-hover:hover {
+    color: rgb(19, 158, 158);
+    cursor: pointer;
+  }
 </style>
