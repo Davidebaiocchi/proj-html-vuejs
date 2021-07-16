@@ -20,6 +20,15 @@
         <span class="title-mod">Nex</span>
         <span>Gen</span>
       </div>
+
+      <div class="navbar">
+        <ul>
+          <li class="blue-hover" v-for="(elementi, i) in menuHeader" :key="i" >
+            {{ elementi }}
+          </li>
+          <li><button>get it touch</button></li>
+        </ul>
+      </div>
     </div>
   </header>
 </template>
@@ -28,9 +37,22 @@
 export default {
   name: 'Header',
   props: {
-   
+  },
+  data() {
+    return {
+      menuHeader : [
+        'home',
+        'about',
+        'services',
+        'process',
+        'team',
+        'blog',
+      ]
+    }
+      
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -54,8 +76,6 @@ export default {
 
   // parte bassa header
   .lower-section {
-    background: rgb(17,37,48);
-    background: linear-gradient(90deg, rgba(17,37,48,1) 0%, rgb(12, 41, 58) 85%, rgb(34, 57, 71) 100%);
     height: 70px;
     line-height: 70px;
     display: flex;
@@ -65,18 +85,37 @@ export default {
   .title {
     font-size: 22px;
     text-transform: uppercase;
-    color: rgb(233, 230, 230);
+    color: rgb(0, 0, 0);
     font-weight: 800;
   }
 
   .title-mod {
-    background-color: rgba(12, 226, 197, 0.096);
+    background-color: rgba(12, 226, 197, 0.226);
     padding: 10px 0;
     padding-left: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    color: rgba(0, 255, 221, 0.692);
+    color: rgba(31, 102, 93, 0.692);
     margin-right: 3px;
+  }
+ 
+  li {
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    margin-right: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  button {
+    color: white;
+    background-color: #048383;
+    height: 40px;
+    padding: 0 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
   }
 
 
