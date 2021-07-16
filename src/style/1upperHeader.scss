@@ -1,0 +1,16 @@
+.upper-section {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(17,37,48);
+    background: linear-gradient(90deg, rgba(17,37,48,1) 0%, rgb(12, 41, 58) 85%, rgb(34, 57, 71) 100%);
+  }
+
+  .left, .right {
+    color: lightgrey;
+  }
+
+  i {
+    margin-right: 20px;
+  }
