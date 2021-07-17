@@ -1,7 +1,6 @@
 .container {
     background-color: #121117;
-    height: 500px;
-    margin-bottom: 100px;
+    padding: 100px 0;
     color: rgb(185, 185, 185);
     display: flex;
     justify-content: center;
@@ -31,7 +30,7 @@
 
     span {
       background-color: #0483833d;
-      padding: 10px;
+      padding: 3px 10px;
     }
 
   .left, .right {
@@ -46,5 +45,6 @@
   }
 
   i {
-      color: #048383;;
+      color: #048383;
+      margin-right: 5px;
   }
