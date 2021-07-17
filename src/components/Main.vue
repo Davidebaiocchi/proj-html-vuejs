@@ -1,16 +1,19 @@
 <template>
   <main>
-    <MainJumbotron/>
+    <MainAJumbotron/>
+    <MainBSliderDark/>
   </main>
 </template>
 
 <script>
-import MainJumbotron from '@/components/MainJumbotron.vue'
+import MainAJumbotron from '@/components/MainAJumbotron.vue'
+import MainBSliderDark from '@/components/MainBSliderDark.vue'
 
 export default {
   name: 'Main',
   components: {
-      MainJumbotron,
+      MainAJumbotron,
+      MainBSliderDark,
   }
   
 }
@@ -18,5 +21,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 </style>
