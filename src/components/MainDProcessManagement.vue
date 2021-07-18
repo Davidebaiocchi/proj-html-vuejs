@@ -24,19 +24,19 @@
                 <p>Lorem ipsum dolor sit amet <br> adipisicing elit.</p>
             </div>
             <div class="card2 card">
-                <h3>Collection of information</h3>
+                <h3>Strategic Planning</h3>
                 <p>Lorem ipsum dolor sit amet <br> adipisicing elit.</p>
             </div>
             <div class="card3 card">
-                <h3>Collection of information</h3>
+                <h3>Assignment of responsabilities</h3>
                 <p>Lorem ipsum dolor sit amet <br> adipisicing elit.</p>
             </div>
             <div class="card4 card">
-                <h3>Collection of information</h3>
+                <h3>Formatting process</h3>
                 <p>Lorem ipsum dolor sit amet <br> adipisicing elit.</p>
             </div>
             <div class="card5 card">
-                <h3>Collection of information</h3>
+                <h3>Continuity formalization</h3>
                 <p>Lorem ipsum dolor sit amet <br> adipisicing elit.</p>
             </div>
         </div>
