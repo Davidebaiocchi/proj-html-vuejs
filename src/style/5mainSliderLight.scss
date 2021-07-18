@@ -1,8 +1,13 @@
 /* #048383 */
 
-.container {
+.container-main {
     background-color: #eef4ed;
-    padding: 100px 410px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 100px 0;
 }
 
 .section {
@@ -31,10 +36,11 @@ button:hover {
 h4 {
     color: #048383;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 h2 {
-font-size: 40px;
+font-size: 60px;
 color: rgb(37, 37, 37);
 margin: 30px 0;
 font-family:Verdana, Geneva, Tahoma, sans-serif ;
@@ -50,18 +56,20 @@ p {
     color: grey;
     margin-bottom: 10px;
     display: inline-block;
-    margin-right: 200px;
+    font-size: 20px;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .card h3 {
     margin: 10px 0;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -73,22 +81,22 @@ i {
 }
 
 .card {
-    width: 300px;
+    width: 350px;
     background-color: white;
-    margin: 30px;
+    margin: 15px;
     border-radius: 10px;
     padding: 50px 30px;
 }
 
 .card:hover {
-    scale: 1.2;
+    scale: 1.1;
     cursor: pointer;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .card p {
     margin: 0;
+    font-size: 23px;
 }
 
 .arrow {
