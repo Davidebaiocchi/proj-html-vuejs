@@ -6,7 +6,7 @@
             <div class="section">
                 <h4>Our Business Areas</h4>
                 <h2>Excellence in <span>Services</span> </h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci commodi placeat beatae odit velit animi sint assumenda inventore <br> ea ullam nulla illum impedit doloribus laboriosam veniam exercitationem, accusamus a quas?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci commodi placeat beatae odit velit animi sint assumenda inventore?</p>
                 <button>See all</button>
             </div>
             
