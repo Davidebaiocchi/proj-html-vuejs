@@ -69,5 +69,6 @@ name : 'MainETeamExpert'
 </script>
 
 <style scoped lang=scss>
+    @import '@/style/0Commons.scss';
     @import '@/style/7MainTeamExpert.scss';
 </style>

@@ -53,5 +53,6 @@ name : 'MainCSliderlight'
 </script>
 
 <style scoped lang=scss>
+    @import '@/style/0Commons.scss';
     @import '@/style/5mainSliderLight.scss';    
 </style>

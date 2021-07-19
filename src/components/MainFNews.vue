@@ -34,4 +34,5 @@ name : 'MainFNews'
 
 <style scoped lang=scss>
     @import '@/style/8MainNews.scss';
+    @import '@/style/0Commons.scss';
 </style>
