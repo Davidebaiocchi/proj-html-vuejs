@@ -5,6 +5,7 @@
     <MainCSliderlight/>
     <MainDProcessManagement/>
     <MainETeamExpert/>
+    <MainFNews/>
 
   </main>
 </template>
@@ -15,6 +16,7 @@ import MainBSliderDark from '@/components/MainBSliderDark.vue'
 import MainCSliderlight from '@/components/MainCSliderlight.vue'
 import MainDProcessManagement from '@/components/MainDProcessManagement.vue'
 import MainETeamExpert from '@/components/MainETeamExpert.vue'
+import MainFNews from '@/components/MainFNews.vue'
 
 export default {
   name: 'Main',
@@ -24,6 +26,7 @@ export default {
       MainCSliderlight,
       MainDProcessManagement,
       MainETeamExpert,
+      MainFNews,
   }
   
 }

@@ -1,0 +1,126 @@
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.section {
+    margin-left: 30px;
+}
+
+button {
+    color: white;
+    background-color: #048383;
+    height: 40px;
+    padding: 0 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin-top: 30px;
+    position: relative;
+    left: 170px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h4 {
+    color: #048383;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    color: rgb(37, 37, 37);
+    margin: 30px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+h2 span {
+  background-color: #04838323;
+  padding: 3px 10px;
+  color: #048383;
+}
+
+p {
+    color: grey;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 20px;
+    width: 70%;
+}
+
+.cards {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 30px;
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card1 {
+    background-image: url(../assets/news-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url(../assets/news-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url(../assets/news-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background-image: url(../assets/news-4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 180px;
+}
+
+.card5 {
+    background-image: url(../assets/news-5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 180px;
+}
+
+.card span {
+    display: none;
+    cursor: pointer;
+}
+
+.card:hover span{
+    background-color: #000000b7;
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
