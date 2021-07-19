@@ -4,6 +4,8 @@
     <MainBSliderDark/>
     <MainCSliderlight/>
     <MainDProcessManagement/>
+    <MainETeamExpert/>
+
   </main>
 </template>
 
@@ -12,6 +14,7 @@ import MainAJumbotron from '@/components/MainAJumbotron.vue'
 import MainBSliderDark from '@/components/MainBSliderDark.vue'
 import MainCSliderlight from '@/components/MainCSliderlight.vue'
 import MainDProcessManagement from '@/components/MainDProcessManagement.vue'
+import MainETeamExpert from '@/components/MainETeamExpert.vue'
 
 export default {
   name: 'Main',
@@ -20,6 +23,7 @@ export default {
       MainBSliderDark,
       MainCSliderlight,
       MainDProcessManagement,
+      MainETeamExpert,
   }
   
 }
