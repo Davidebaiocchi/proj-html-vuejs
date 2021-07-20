@@ -4,7 +4,7 @@
             <h4>Our Business Areas</h4>
             <h2>Latest <span>News</span> </h2>
             <p>Every week we publish content about what is best in the business world.</p>
-            <button>See all</button>
+            <button @click="rispReg()">See all</button>
         </div>
         <div class="cards">
             <div class="card1 card">
@@ -28,8 +28,13 @@
 
 <script>
 export default {
-name : 'MainFNews'
-}
+name : 'MainFNews',
+    methods: {
+            rispReg() {
+                window.alert('Sito in manutenzione')
+            }
+        }
+    }
 </script>
 
 <style scoped lang=scss>

@@ -10,7 +10,7 @@
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
                 <br>
-                <button>Subscribe</button>
+                <button @click="rispReg()">Subscribe</button>
             </div>
         </div>
     </div>
@@ -18,9 +18,16 @@
 
 <script>
 export default {
-name : 'MainGNewsLetter'
+name : 'MainGNewsLetter',
+
+    methods: {
+        rispReg() {
+            window.alert('Ciao')
+        }
+    }
 }
 </script>
+
 
 <style scoped lang=scss>
     @import '@/style/9MainNewsLetter.scss';

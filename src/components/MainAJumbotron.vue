@@ -9,16 +9,22 @@
             <input type="text" placeholder="Phone">
             <input type="text" placeholder="More info">
             <br>
-            <button>get it touch</button>
-            <button class="btn-white">Read it more</button>
+            <button @click="rispReg()">get it touch</button>
+            <button @click="rispReg()" class="btn-white">Read it more</button>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-name : 'MainJumbotron'
+name : 'MainJumbotron',
+methods: {
+        rispReg() {
+            window.alert('Ciao')
+        }
+    }
 }
+
 </script>
 
 <style scoped lang=scss>

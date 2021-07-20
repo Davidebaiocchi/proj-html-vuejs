@@ -7,7 +7,7 @@
                 <h4>Our Business Areas</h4>
                 <h2>Excellence in <span>Services</span> </h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci commodi placeat beatae odit velit animi sint assumenda inventore?</p>
-                <button>See all</button>
+                <button @click="rispReg()" >See all</button>
             </div>
             
             <div class="cards">
@@ -48,8 +48,14 @@
 
 <script>
 export default {
-name : 'MainCSliderlight'
+name : 'MainCSliderlight',
+    methods: {
+        rispReg() {
+            window.alert('Sito in manutenzione')
+        }
+    }
 }
+
 </script>
 
 <style scoped lang=scss>
