@@ -6,6 +6,7 @@
     <MainDProcessManagement/>
     <MainETeamExpert/>
     <MainFNews/>
+    <MainGNewsLetter/>
 
   </main>
 </template>
@@ -17,6 +18,7 @@ import MainCSliderlight from '@/components/MainCSliderlight.vue'
 import MainDProcessManagement from '@/components/MainDProcessManagement.vue'
 import MainETeamExpert from '@/components/MainETeamExpert.vue'
 import MainFNews from '@/components/MainFNews.vue'
+import MainGNewsLetter from '@/components/MainGNewsLetter.vue'
 
 export default {
   name: 'Main',
@@ -27,6 +29,7 @@ export default {
       MainDProcessManagement,
       MainETeamExpert,
       MainFNews,
+      MainGNewsLetter,
   }
   
 }
