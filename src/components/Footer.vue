@@ -28,6 +28,14 @@
       </ul>
     </div>
     </div>
+    <div class="lower">
+      <div class="left">
+        Enjoy the low price. We are tracking any intention of piracy.
+      </div>
+      <div class="right">
+        © 2020 NEXGEN is Proudly Powered by <span>Codings</span>.
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -63,7 +71,7 @@ export default {
   }
 
   .container {
-    padding: 150px 0;
+    padding: 100px 0;
     margin: auto;
     width: 70%;
     display: flex;
@@ -153,5 +161,14 @@ ul {
 
 .voci {
   font-size: 20px;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 18px;
+  padding: 30px;  
+  background-color: #0e0e11;
 }
 </style>
