@@ -16,12 +16,6 @@
             <div class="card3 card">
                 <span>Working from home is now a trend</span>
             </div>
-            <div class="card4 card">
-                <span>Working from home is now a trend</span>
-            </div>
-            <div class="card5 card">
-                <span>Working from home is now a trend</span>
-            </div>
         </div>
     </div>
 </template>
