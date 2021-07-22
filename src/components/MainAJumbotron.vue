@@ -10,7 +10,7 @@
             <input type="text" placeholder="More info">
             <br>
             <button @click="rispReg()">get it touch</button>
-            <button @click="rispReg()" class="btn-white">Read it more</button>
+            <button @click="rispReg()" class="btn-white">Read more</button>
         </div>
     </div>
 </template>
