@@ -34,4 +34,6 @@ export default {
     cursor: pointer;
     scale: 1.1;
   }
+
+  
 </style>
