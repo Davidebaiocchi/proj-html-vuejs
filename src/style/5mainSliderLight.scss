@@ -1,0 +1,53 @@
+/* #048383 */
+
+.container-main {
+    background-color: #eef4ed;
+    font-family: 'Prata', serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+i {
+    color: #048383;
+    font-size: 35px;
+    position: relative;
+    bottom: 30px;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+.card:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.card p {
+    margin: 0;
+    font-size: 23px;
+}
+
+.arrow {
+    position: relative;
+    left: 230px;
+    bottom: 30px;
+    font-size: 20px;
+}
